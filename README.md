@@ -28,6 +28,12 @@ Step 8: run 'git status' -> to check the status of the file in which it will be 
 
 Step 9: to track it use 'git add "file"' and then check the status again the file will be in green colour which means it is now ready to be pushed on github repositories.
 
-Step 10: git commit -m "demo file to add and commit" file is still uncommitted and be done using this command.  Now if you check the status it will say you are 1 step ahead 
+Step 10: git commit -m "demo file to add and commit" file is still uncommitted and be done using this command.  Now if you check the status it will say you are 1 step ahead by 1 commit means you need to push file to the repo now.
 
-Step 11: 
+Step 11: now to push the file use 'git push origin main' it will ask for your github username and password, now the passowrd asked here is not your accounts password but an access token which can be generated from github following these steps;
+  1) Go to settings
+  2) Scroll down the menu and open developer settings
+  3) now click on generate APT(Access Point Token) in which grant the permissions you need and set the expiry of token, after      setting up click generate token and then copy it.
+  4) paste the token you copied in your password.
+
+Step 12: Check the status again and you will see that you are up to date and there is nothing to commit.
